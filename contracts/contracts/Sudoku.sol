@@ -70,7 +70,9 @@ contract Sudoku {
                         break;
                     }
                 }
-                if(!isEqual) break;
+            }
+            if(isEqual==true){
+                return true;
             }
         }
         return isEqual;
